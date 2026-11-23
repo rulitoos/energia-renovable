@@ -1,0 +1,49 @@
+# EcoEnergía — Pequeños hábitos, grandes cambios
+Proyecto académico enfocado en promover el ahorro energético y el consumo responsable de electricidad.
+Vinculación con el Objetivo de Desarrollo Sostenible 7 (ODS 7): Energía asequible y no contaminante.
+EcoEnergía propone herramientas digitales, recomendaciones prácticas y recursos educativos para fomentar hábitos sostenibles.
+El orientador de consejos funciona como una demostración interactiva. El formulario y la página de confirmación son simulados: no se almacenan datos personales, no se envían correos ni se programan recordatorios reales.
+## IMÁGENES UTILIZADAS
+energia.png
+Fuente: CEPaz — ODS 7: Energía asequible y no contaminante.
+https://cepaz.org/ods-7-energia-asequible-y-no-contaminante/
+Uso: Imagen ilustrativa relacionada con el ODS 7.
+energias.jpeg
+Fuente: Ayuda en Acción — ODS 7: Energía sostenible.
+https://ayudaenaccion.org/blog/derechos-humanos/ods-7-energia-sostenible/
+Uso: Imagen ilustrativa sobre energía sostenible.
+nosotros.avif
+Fuente: Magnific — Group Study.
+https://www.magnific.com/es/fotos-vectores-gratis/group-study
+Uso: Imagen ilustrativa de la sección Nosotros.
+servicios.jpg
+Fuente: Fotografía publicada en Facebook.
+https://www.facebook.com/photo/?fbid=1465552642284754&set=a.323293983177298
+Uso: Imagen ilustrativa relacionada con los servicios del proyecto.
+proyectos.png
+Uso: Captura de referencia de una aplicación móvil presentada en la sección Proyectos
+Origen y autorización de uso: pendientes de confirmar.
+EcoEnergía.svg
+Uso: Logotipo del proyecto EcoEnergía.
+Autoría: pendiente de confirmar.
+## VIDEO DE REFERENCIA
+YouTube Shorts — Video sobre hábitos de ahorro energético.
+https://www.youtube.com/shorts/QF3Ysh6UCLc
+El video se inserta mediante un reproductor de YouTube. No se descarga ni se redistribuye.
+Autor y título original: pendientes de verificar.
+**Video de presentación: presentacion.mp4**
+Archivo local previsto en la carpeta videos.
+Origen y permisos de uso: pendientes de confirmar.
+## ICONOS Y REDES SOCIALES
+Archivos utilizados:
+- EcoEnergía.svg
+- facebook.svg
+- instagram.svg
+- youtube.svg
+Los íconos se utilizan como recursos gráficos de navegación. Su autoría y licencia deben verificarse según el origen de los archivos.
+Las marcas Facebook, Instagram y YouTube pertenecen a sus respectivos titulares. Su presencia no implica afiliación con EcoEnergía.
+Los enlaces de redes sociales llevan a las páginas generales de cada plataforma, no a cuentas oficiales del proyecto.
+## OBSERVACIONES
+Las imágenes y los videos cumplen una función ilustrativa y educativa. No demuestran la existencia de un servicio operativo.
+Los enlaces registrados corresponden a las páginas donde se localizaron los recursos; no necesariamente identifican al autor original ni acreditan permisos de reutilización.
+El proyecto fue desarrollado con HTML5 y CSS3 como actividad académica, incorporando navegación, diseño adaptable a distintos dispositivos y componentes interactivos sin JavaScript.

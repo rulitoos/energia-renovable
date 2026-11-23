@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solicitud de prueba | EcoEnergía</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/menu.js" defer></script>
+  <link rel="icon" type="image/svg+xml" href="iconos/EcoEnergía.svg">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor barra">
+    <a class="marca" href="index.html" aria-label="EcoEnergía, ir al inicio">
+      <img src="iconos/EcoEnergía.svg" alt="" width="42" height="42">
+      EcoEnergía
+    </a>
+    <button id="boton-menu" class="hamburguesa" type="button"
+            aria-controls="navegacion" aria-expanded="false" aria-label="Abrir menú">
+      <span class="lineas" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span id="texto-menu">Menú</span>
+    </button>
+    <nav id="navegacion" class="navegacion" aria-label="Navegación principal">
+      <ul class="menu">
+        <li><a href="index.html#inicio">Inicio</a></li>
+        <li><a href="index.html#nosotros">Nosotros</a></li>
+        <li>
+          <details id="resolver" class="desplegable">
+            <summary>Resolver</summary>
+            <ul class="submenu">
+              <li><a href="index.html#servicios">Servicios</a></li>
+              <li><a href="index.html#orientador">Ver objetos</a></li>
+              <li><a href="index.html#contacto">Solicitar devolución</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a href="recursos.html">Video y guía</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido" class="contenedor seccion">
+  <section class="confirmacion" aria-labelledby="titulo-confirmacion">
+    <p class="etiqueta">EcoEnergía · Demostración</p>
+    <h1 id="titulo-confirmacion">¡Un pequeño paso hacia el ahorro energético!</h1>
+    <p>Has completado el formulario de prueba. En una versión funcional de EcoEnergía, podrías configurar recordatorios para mejorar tus hábitos de consumo eléctrico.</p>
+    <p>Por ahora, esta página solo muestra cómo sería el final del proceso. No se ha guardado tu información ni se ha programado ningún recordatorio.</p>
+    <h2>¿Qué te gustaría hacer ahora?</h2>
+    <p>Puedes conocer otros consejos de ahorro o regresar al formulario para probar una configuración diferente.</p>
+    <a class="boton" href="index.html#orientador">Explorar consejos</a>
+    <a class="enlace" href="index.html#contacto">Volver al formulario</a>
+  </section>
+</main>
+<footer class="pie">
+  <div class="contenedor">
+    <p><strong>EcoEnergía ODS 7</strong> · Uso responsable y ahorro de energía.</p>
+    <p>Proyecto académico de educación y sostenibilidad.</p>
+    <nav class="redes" aria-label="Redes sociales de referencia">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/facebook.svg" alt="" width="24" height="24">Facebook</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/instagram.svg" alt="" width="24" height="24">Instagram</a>
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/youtube.svg" alt="" width="24" height="24">YouTube</a>
+    </nav>
+    <p>© 2026 EcoEnergía · Proyecto académico · <a href="FUENTES.txt">Créditos de recursos</a></p>
+  </div>
+</footer>
+</body>
+</html>

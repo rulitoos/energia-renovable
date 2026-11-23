@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EcoEnergía: herramientas y consejos para un consumo energético responsable.">
+  <title>EcoEnergía | Ahorro y consumo responsable</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/menu.js" defer></script>
+  <script src="js/recordatorios.js" defer></script>
+  <link rel="icon" type="image/svg+xml" href="iconos/EcoEnergía.svg">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor barra">
+    <a class="marca" href="index.html" aria-label="EcoEnergía, ir al inicio">
+      <img src="iconos/EcoEnergía.svg" alt="" width="42" height="42">
+      EcoEnergía
+    </a>
+    <button id="boton-menu" class="hamburguesa" type="button"
+            aria-controls="navegacion" aria-expanded="false" aria-label="Abrir menú">
+      <span class="lineas" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span id="texto-menu">Menú</span>
+    </button>
+    <nav id="navegacion" class="navegacion" aria-label="Navegación principal">
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li>
+          <details id="resolver" class="desplegable">
+            <summary>Resolver</summary>
+            <ul class="submenu">
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#orientador">Ver objetos</a></li>
+              <li><a href="#contacto">Solicitar devolución</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a href="recursos.html">Video y guía</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="contenido">
+  <section id="inicio" class="hero seccion" aria-labelledby="titulo-inicio">
+    <div class="contenedor">
+      <p class="etiqueta">ENERGÍA QUE TRANSFORMA</p>
+      <h1 id="titulo-inicio">Pequeños hábitos,<br> un consumo más responsable.</h1>
+      <p class="hero-descripcion">En EcoEnergía promovemos el ahorro eléctrico a través de herramientas digitales, recomendaciones prácticas y educación ambiental.</p>
+      <figure class="postal hero-imagen">
+        <img src="imagenes/energias.jpeg" alt="Imagen relacionada con energías renovables">
+        <figcaption>Un futuro sostenible comienza con decisiones cotidianas.</figcaption>
+      </figure>
+      <div class="hero-acciones">
+        <a class="boton" href="#orientador">Explorar consejos</a>
+        <a class="enlace" href="#nosotros">Conoce el proyecto</a>
+      </div>
+      <p class="nota hero-nota">Proyecto académico enfocado en el Objetivo de Desarrollo Sostenible 7.</p>
+    </div>
+  </section>
+  <section id="nosotros" class="seccion fondo">
+    <div class="contenedor dos-columnas">
+      <img class="foto" src="imagenes/nosotros.avif" alt="Imagen representativa de nuestro compromiso ambiental" loading="lazy">
+      <div>
+        <p class="etiqueta">Nuestro propósito</p>
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos una iniciativa académica que promueve el ahorro energético y la adopción de hábitos responsables, tomando como referencia el ODS 7.</p>
+        <h3>Nuestra misión</h3>
+        <p>Facilitar la adopción de hábitos de ahorro de energía mediante herramientas digitales, recordatorios inteligentes y educación ambiental práctica.</p>
+        <h3>Nuestra visión</h3>
+        <p>Ser un referente en la promoción del consumo responsable de energía y la transición hacia fuentes no contaminantes en la comunidad.</p>
+      </div>
+    </div>
+  </section>
+  <section id="servicios" class="seccion">
+    <div class="contenedor">
+      <p class="etiqueta">Lo que proponemos</p>
+      <h2>Servicios para ahorrar energía</h2>
+      <p>Queremos que adoptar hábitos sostenibles sea más sencillo, tanto en casa como en la universidad.</p>
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <span class="numero">01 / Recuerda</span>
+          <h3>Recordatorios inteligentes</h3>
+          <p>Alertas personalizadas para apagar luces y desconectar dispositivos que no se utilizan.</p>
+          <a href="#contacto">Probar una solicitud</a>
+        </article>
+        <article class="tarjeta">
+          <span class="numero">02 / Comprende</span>
+          <h3>Impacto energético</h3>
+          <p>Propuesta de herramientas para comprender la huella de carbono y los efectos del consumo eléctrico.</p>
+          <a href="#proyectos">Ver la propuesta</a>
+        </article>
+        <article class="tarjeta">
+          <span class="numero">03 / Aprende</span>
+          <h3>Guías de consumo eficiente</h3>
+          <p>Recomendaciones prácticas para utilizar mejor los electrodomésticos y evitar el desperdicio de electricidad.</p>
+          <a href="recursos.html">Consultar recursos</a>
+        </article>
+        <article class="tarjeta">
+          <span class="numero">04 / Comparte</span>
+          <h3>Educación ambiental</h3>
+          <p>Iniciativas y talleres de sensibilización sobre energías renovables y eficiencia energética.</p>
+          <a href="#proyectos">Conocer iniciativas</a>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section id="orientador" class="seccion fondo">
+    <div class="contenedor">
+      <p class="etiqueta">Herramienta interactiva de demostración</p>
+      <h2>¿Dónde quieres empezar a ahorrar?</h2>
+      <p>Selecciona una categoría y descubre una recomendación que puedes aplicar en tu rutina.</p>
+      <fieldset class="orientador">
+        <legend>Selecciona un tema</legend>
+        <input type="radio" name="categoria" id="iluminacion" checked>
+        <label for="iluminacion">Iluminación</label>
+        <input type="radio" name="categoria" id="electrodomesticos">
+        <label for="electrodomesticos">Electrodomésticos</label>
+        <input type="radio" name="categoria" id="climatizacion">
+        <label for="climatizacion">Climatización</label>
+        <div class="resultados">
+          <div class="respuesta iluminacion">
+            <h3>Aprovecha la iluminación natural</h3>
+            <p>Abre las cortinas durante el día, apaga las luces innecesarias y considera utilizar focos LED.</p>
+          </div>
+          <div class="respuesta electrodomesticos">
+            <h3>Reduce el consumo en espera</h3>
+            <p>Desconecta los aparatos que no utilizas y revisa las funciones de ahorro energético de tus equipos.</p>
+          </div>
+          <div class="respuesta climatizacion">
+            <h3>Mejora la ventilación</h3>
+            <p>Cuando sea posible, aprovecha la ventilación natural antes de encender equipos de climatización.</p>
+          </div>
+          <a class="boton" href="recursos.html">Ver más recomendaciones</a>
+        </div>
+      </fieldset>
+      <p class="nota">Demostración realizada únicamente con HTML y CSS. No calcula el consumo eléctrico real.</p>
+    </div>
+  </section>
+  <section id="proyectos" class="seccion">
+    <div class="contenedor dos-columnas">
+      <div>
+        <p class="etiqueta">Iniciativas del equipo</p>
+        <h2>Nuestros proyectos</h2>
+        <p>Buscamos reducir las dificultades que aparecen al intentar mantener hábitos de ahorro energético.</p>
+        <h3>Módulo de recordatorios inteligentes</h3>
+        <p>Propuesta de alertas personalizadas para apagar luces y desconectar aparatos.</p>
+        <h3>Filtro especializado de energía</h3>
+        <p>Organización de recomendaciones según el tipo de consumo y las necesidades del usuario.</p>
+        <h3>Campaña universitaria ODS 7</h3>
+        <p>Actividades para promover el consumo responsable en la comunidad educativa.</p>
+      </div>
+      <img class="foto" src="imagenes/proyectos.png" alt="Pantalla inicial del prototipo móvil Watly">    </div>
+  </section>
+  <section id="galeria" class="seccion fondo">
+    <div class="contenedor">
+      <p class="etiqueta">Energía y sostenibilidad</p>
+      <h2>Galería</h2>
+      <div class="galeria">
+        <figure>
+          <img src="imagenes/energia.png" alt="Símbolo del Objetivo de Desarrollo Sostenible 7" loading="lazy">
+          <figcaption>ODS 7: energía asequible y no contaminante.</figcaption>
+        </figure>
+        <figure>
+          <img src="imagenes/energias.jpeg" alt="Imagen relacionada con energías renovables" loading="lazy">
+          <figcaption>Las fuentes renovables son parte de la transición energética.</figcaption>
+        </figure>
+      </div>
+<p>¿Quieres conocer más formas de ahorrar electricidad? Revisa nuestros videos y descubre hábitos que puedes aplicar en casa.</p>
+<a class="boton" href="recursos.html">Ver videos y consejos</a>    </div>
+  </section>
+  <section id="testimonios" class="seccion">
+    <div class="contenedor">
+      <p class="etiqueta">Escenarios de uso</p>
+      <h2>Así podría ayudar EcoEnergía</h2>
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <blockquote>“Los recordatorios me ayudarían a desconectar mis dispositivos antes de dormir”.</blockquote>
+        </article>
+        <article class="tarjeta">
+          <blockquote>“Tener las recomendaciones organizadas facilitaría encontrar hábitos que puedo aplicar”.</blockquote>
+        </article>
+      </div>
+      <p class="nota">Ejemplos ilustrativos de posibles experiencias de usuario; no son testimonios verificados.</p>
+    </div>
+  </section>
+  <section id="contacto" class="seccion fondo">
+    <div class="contenedor dos-columnas">
+      <div>
+        <p class="etiqueta">HU5 · Recordatorios personalizados</p>
+        <h2>Programa un recordatorio de ahorro</h2>
+        <p>Elige una hora y escribe el hábito que quieres mantener. EcoEnergía te mostrará un aviso para apagar las luces o desconectar los dispositivos que no estés utilizando.</p>
+        <p class="nota">Es una simulación académica: mantén esta página abierta para que aparezca el aviso. No se envían notificaciones al celular ni se guardan datos.</p>
+      </div>
+      <form class="formulario" id="form-recordatorio">
+        <label for="horario">¿A qué hora quieres el recordatorio?</label>
+        <input type="time" id="horario" name="horario" required>
+
+        <label for="frecuencia">¿Con qué frecuencia?</label>
+        <select id="frecuencia" name="frecuencia" required>
+          <option value="una-vez">Solo una vez</option>
+          <option value="diario">Todos los días</option>
+        </select>
+
+        <label for="mensaje">¿Qué hábito quieres recordar?</label>
+        <textarea id="mensaje" name="mensaje" rows="3" minlength="8" maxlength="240"
+          placeholder="Ejemplo: apagar las luces y desconectar el cargador antes de dormir" required></textarea>
+
+        <label class="confirmacion-simulacion" for="acepto">
+          <input type="checkbox" id="acepto" required>
+          Entiendo que es una simulación académica.
+        </label>
+
+        <button type="submit" class="boton">Programar recordatorio</button>
+        <p id="estado-programacion" class="estado-programacion" role="status" aria-live="polite">Aún no tienes recordatorios programados.</p>
+        <p id="progreso-recordatorios" class="progreso-recordatorios">Acciones completadas: 0</p>
+
+        <section id="notificacion-recordatorio" class="notificacion-recordatorio" aria-live="assertive" aria-atomic="true" tabindex="-1" hidden>
+          <p class="etiqueta">EcoEnergía · Es hora de ahorrar</p>
+          <h3>¡Tu recordatorio!</h3>
+          <p id="texto-notificacion"></p>
+          <button type="button" class="boton" id="marcar-realizado">Marcar como realizada</button>
+        </section>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="pie">
+  <div class="contenedor">
+    <p><strong>EcoEnergía ODS 7</strong> · Uso responsable y ahorro de energía.</p>
+    <p>Proyecto académico de educación y sostenibilidad.</p>
+    <nav class="redes" aria-label="Redes sociales de referencia">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/facebook.svg" alt="" width="24" height="24">Facebook</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/instagram.svg" alt="" width="24" height="24">Instagram</a>
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/youtube.svg" alt="" width="24" height="24">YouTube</a>
+    </nav>
+    <p class="nota">© 2026 EcoEnergía · Proyecto académico · <a href="FUENTES.txt">Créditos de recursos</a></p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprende a ahorrar energía | EcoEnergía</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/menu.js" defer></script>
+  <link rel="icon" href="iconos/EcoEnergía.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor barra">
+    <a class="marca" href="index.html" aria-label="EcoEnergía, ir al inicio">
+      <img src="iconos/EcoEnergía.svg" alt="" width="42" height="42">
+      EcoEnergía
+    </a>
+    <button id="boton-menu" class="hamburguesa" type="button"
+            aria-controls="navegacion" aria-expanded="false" aria-label="Abrir menú">
+      <span class="lineas" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span id="texto-menu">Menú</span>
+    </button>
+    <nav id="navegacion" class="navegacion" aria-label="Navegación principal">
+      <ul class="menu">
+        <li><a href="index.html#inicio">Inicio</a></li>
+        <li><a href="index.html#nosotros">Nosotros</a></li>
+        <li>
+          <details id="resolver" class="desplegable">
+            <summary>Resolver</summary>
+            <ul class="submenu">
+              <li><a href="index.html#servicios">Servicios</a></li>
+              <li><a href="index.html#orientador">Ver objetos</a></li>
+              <li><a href="index.html#contacto">Solicitar devolución</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a href="recursos.html">Video y guía</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="contenido" class="contenedor seccion recursos">
+  <p class="etiqueta">Aprende con EcoEnergía</p>
+  <h1>La energía también se cuida desde casa</h1>
+  <p class="intro-recursos">Conoce nuestra propuesta y descubre hábitos sencillos para utilizar mejor la electricidad.</p>
+  <section class="dos-columnas bloque-recurso">
+    <div>
+      <video class="video" controls preload="metadata" aria-label="Presentación de EcoEnergía">
+        <source src="videos/presentacion.mp4" type="video/mp4">
+        Tu navegador no admite este video.
+      </video>
+      <p class="nota"><a href="videos/presentacion.mp4" target="_blank" rel="noopener noreferrer">Abrir video de presentación</a></p>
+    </div>
+    <div>
+      <p class="etiqueta">Nuestra propuesta</p>
+      <h2>Conoce EcoEnergía</h2>
+      <p>Queremos ayudar a las personas a incorporar hábitos de ahorro energético mediante consejos prácticos, educación ambiental y herramientas digitales.</p>
+      <p>Nuestra propuesta se relaciona con el ODS 7 y busca fomentar un consumo más responsable.</p>
+    </div>
+  </section>
+  <section class="dos-columnas bloque-recurso">
+    <div class="short-contenedor">
+      <iframe class="video video-habitos"
+        src="https://www.youtube.com/embed/QF3Ysh6UCLc"
+        title="Video sobre hábitos de ahorro energético"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="encrypted-media; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <p class="nota"><a href="https://www.youtube.com/shorts/QF3Ysh6UCLc" target="_blank" rel="noopener noreferrer">Ver el Short en YouTube</a></p>
+    </div>
+    <div>
+      <p class="etiqueta">Empieza hoy</p>
+      <h2>Tres hábitos que hacen la diferencia</h2>
+      <p>No necesitas cambiar toda tu rutina. Puedes comenzar con estas acciones:</p>
+      <ol>
+        <li>Apaga las luces cuando salgas de una habitación.</li>
+        <li>Desconecta los aparatos que no estés utilizando.</li>
+        <li>Aprovecha la luz natural siempre que sea posible.</li>
+      </ol>
+      <a class="boton" href="index.html#orientador">Explorar consejos</a>
+    </div>
+  </section>
+</main>
+<footer class="pie">
+  <div class="contenedor">
+    <p><strong>EcoEnergía ODS 7</strong> · Uso responsable y ahorro de energía.</p>
+    <p>Proyecto académico de educación y sostenibilidad.</p>
+    <nav class="redes" aria-label="Redes sociales">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/facebook.svg" alt="" width="24" height="24">Facebook</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/instagram.svg" alt="" width="24" height="24">Instagram</a>
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/youtube.svg" alt="" width="24" height="24">YouTube</a>
+    </nav>
+    <p>© 2026 EcoEnergía · <a href="FUENTES.txt">Créditos de recursos</a></p>
+  </div>
+</footer>
+</body>
+</html>
